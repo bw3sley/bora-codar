@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./global.css">
+
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="app">
+        <h1>Teste os botões</h1>
+        <p>Interaja com os botões e observe a mudança de aparência e de cursores.</p>
+
+        <div class="buttons">
+            <button type="button" onclick="handleChangeButtonClasses(event)" class="primary">
+                Interaja comigo
+            </button>
+
+            <button type="button" onclick="handleChangeButtonClasses(event)" class="secondary">
+                Interaja comigo
+            </button>
+
+            <button type="button" onclick="handleChangeButtonClasses(event)" class="tertiary movable">
+                <i class="ph-list"></i>
+                Interaja comigo
+            </button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <script>
+        const classes = ["primary", "secondary", "tertiary", "movable", "loading", "disabled"];
+        
+        function handleChangeButtonClasses(event) {
+            const randomIndex = Math.floor(Math.random() * classes.length);
+            const anotherRandomIndex = Math.floor(Math.random() * classes.length);
+
+            const button = event.currentTarget;
+            const text = button.textContent;
+
+            const currentButtonClasses = button.classList.value;
+
+            button.classList.remove(...currentButtonClasses.split(" "));
+            button.removeAttribute("disabled");
+
+            if(classes[randomIndex] === "disabled") {
+                button.setAttribute("disabled", true);
+                
+                button.textContent = text;
+                
+                button.classList.add(classes[anotherRandomIndex])
+            }
+
+            else if(classes[randomIndex] === "movable" && classes[anotherRandomIndex] !== "loading") {
+                button.classList.add(classes[randomIndex]);
+                button.classList.add(classes[anotherRandomIndex])
+                
+                button.innerHTML = `
+                    <i class="ph-list"></i>
+                    ${text}
+                `
+            }
+
+            else if(classes[randomIndex] === "loading" && classes[anotherRandomIndex] !== "movable") {
+                button.classList.add(classes[randomIndex]);
+                button.classList.add(classes[anotherRandomIndex])
+                
+                button.innerHTML = `
+                    <i class="ph-circle-notch"></i>
+                    ${text}
+                `
+            }
+
+            else {
+                button.classList.add(classes[randomIndex]);
+                button.classList.add(classes[anotherRandomIndex]);
+
+                console.log(classes[randomIndex], classes[anotherRandomIndex]);
+                
+                button.textContent = text;
+            }
+        }
+
+    </script>
+
 </body>
 </html>
