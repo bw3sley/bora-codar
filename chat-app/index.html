@@ -2,11 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./global.css" />
+    
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="app">
+        <div id="top">
+            <div id="user-info">
+                <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="">
+
+                <div id="user-status">
+                    <strong>Cecilia Sassaki</strong>
+                    <div class="status">
+                        Online
+                    </div>
+                </div>
+            </div>
+            
+            <div class="close-chat">
+                <i class="ph-x-fill"></i>
+            </div>
+        </div>
+
+        <div id="messages">
+            <div id="last-seen">
+                Hoje 11:30
+            </div>
+
+            <div class="messages">
+                <div class="message">
+                    <div class="top">Cecilia - 11:30</div>
+                    <div class="body">Tive uma ideia incrível para um projeto! 😍</div>
+                </div>
+                <div class="message you">
+                    <div class="top">Você - 11:32</div>
+                    <div class="body">Sério? Me conta mais.</div>
+                </div>
+                <div class="message">
+                    <div class="top">Cecilia - 11:34</div>
+                    <div class="body">E se a gente fizesse um chat moderno e responsivo em apenas uma semana?</div>
+                </div>
+                <div class="message you">
+                    <div class="top">Você - 11:36</div>
+                    <div class="body"><strong>#boraCodar! 🚀</strong></div>
+                </div>
+            </div>
+        </div>
+
+        <form id="bottom">
+            <input type="text" placeholder="Digite sua mensagem" required />
+
+            <button type="submit">
+                <i class="ph-paper-plane-right-fill"></i>
+            </button>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <script>
+        const messages = document.querySelector(".messages");
+
+        messages.lastElementChild.scrollIntoView();
+
+        const form = document.querySelector("form");
+        const input = form.querySelector("input");
+
+        input.addEventListener("invalid", (event) => {
+            event.target.setCustomValidity("Preencha o campo com algum texto");
+        })
+
+        form.onsubmit = (event) => {
+            event.preventDefault();
+
+            const text = input.value;
+
+            if(!text) {
+                return alert("Preenc")
+            }
+
+            const currentHour = String(new Date().getHours()).padStart(1, "0");
+            const currentMinute = String(new Date().getMinutes()).padStart(1, "0");
+
+            if(messages.lastElementChild.classList.contains("you")) {
+                messages.innerHTML += `
+                    <div class="message">
+                        <div class="top">Cecilia - ${currentHour}:${currentMinute}</div>
+                        <div class="body">${text}</div>
+                    </div>
+                `
+            }
+
+            else {
+                messages.innerHTML += `
+                    <div class="message you">
+                        <div class="top">Você - ${currentHour}:${currentMinute}</div>
+                        <div class="body">${text}</div>
+                    </div>
+                `
+            }
+
+            input.value = "";
+            
+            messages.lastElementChild.scrollIntoView();
+        }
+    </script>
 </body>
 </html>
