@@ -1,6 +1,9 @@
 :root {
     --bg-color: #d9cdf7;
+
     --text-color: #271a45;
+
+    font-size: 62.5%;
 }
 
 *, *::before, *::after {
@@ -42,18 +45,18 @@ html.animated button#btn-close, html.animated img#animated {
 h1 {
     font-family: "Crimson Pro", serif;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 3.2rem;
 
-    margin-top: 12px;
+    margin-top: 1.2rem;
 }
 
 h4 {
     font-weight: 300;
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 p {
-    margin-top: 12px;
+    margin-top: 1.2rem;
 
     opacity: .67;
 }
@@ -65,7 +68,7 @@ p {
 #app {
     display: flex;
     align-items: center;
-    gap: 63px;
+    gap: 6.3rem;
 }
 
 #product-image {
