@@ -2,11 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./global.css">
+    
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="calculator">
+        <div id="display">
+            <div id="last-calc">1+1</div>
+            <div id="result">
+                <img src="./assets/equals.svg" alt="Equals icon">
+                <span>2</span>
+            </div>
+        </div>
+
+        <div id="keyboard">
+            <button type="button" class="secondary">CE</button>
+            <button type="button">C</button>
+            <button type="button">
+                <img src="./assets/percent.svg" alt="">
+            </button>
+            <button type="button" class="tertiary">
+                <img src="./assets/divide.svg" alt="">
+            </button>
+
+            <button type="button">7</button>
+            <button type="button">8</button>
+            <button type="button">9</button>
+            <button type="button" class="tertiary">
+                <img src="./assets/X.svg" alt="">
+            </button>
+            
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button" class="tertiary">
+                <img src="./assets/minus.svg" alt="">
+            </button>
+
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button" class="tertiary">
+                <img src="./assets/plus.svg" alt="">
+            </button>
+
+            <button type="button">
+                <img src="./assets/plus-minus.svg" alt="">
+            </button>
+            <button type="button">0</button>
+            <button type="button">,</button>
+            <button type="button" class="quartiary">
+                <img src="./assets/equals-white.svg" alt="">
+            </button>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>
