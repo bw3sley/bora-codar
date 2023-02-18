@@ -99,16 +99,14 @@
     </div>
 
     <script>
-        const sections = document.querySelectorAll("section + section");
+        const bottom = document.querySelector(".bottom");
 
-        sections.forEach(section => {
-            section.addEventListener("mouseover", (event) => {
-                event.currentTarget.classList.add("cut");
-            })  
+        bottom.addEventListener("mouseover", (event) => {
+            event.currentTarget.classList.add("cut");
+        })
 
-            section.addEventListener("mouseout", (event) => {
-                event.currentTarget.classList.remove("cut");
-            })  
+        bottom.addEventListener("mouseout", (event) => {
+            event.currentTarget.classList.remove("cut");
         })
     </script>
 </body>
