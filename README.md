@@ -1,5 +1,5 @@
 # #boraCodar
-#boraCodar is a weekly coding challenge provided by [@Rocketseat](https://www.rocketseat.com.br/), aimed at helping participants improve their coding skills in HTML, CSS, and JavaScript. Each week, a new challenge is presented by [Mayk Brito](https://github.com/maykbrito). The challenges range from simple tasks to more complex ones, designed to be accessible to coders of all skill levels. The challenge is a great way to stay motivated and engaged in learning web development while connecting with other developers in the community.
+#boraCodar is a weekly coding challenge provided by [@Rocketseat](https://www.rocketseat.com.br/), aimed at helping participants improve their coding skills in HTML, CSS, and JavaScript. Each week, a new challenge is presented by [Mayk Brito](https://github.com/maykbrito). The challenges range from simple tasks to more complex ones, designed to be accessible to coders of all skill levels. [Access the week challenge](https://www.rocketseat.com.br/boracodar).
 
 ## 🚀 Challenges
 
