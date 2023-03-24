@@ -20,3 +20,202 @@ body, html {
 body {
     font-size: 1.6rem;
 }
+
+body * {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: 3.6rem;
+    line-height: 5.5rem;
+
+    color: #1e293b;
+}
+
+h1 + p {
+    margin-top: 1.6rem;
+
+    color: #475569;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+
+    color: #1e293b;
+}
+
+img {
+    width: 100%;
+
+    object-fit: cover;
+}
+
+button, input {
+    all: unset;
+
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+
+    color: #7c3aed;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+}
+
+#page {
+    height: 100vh;
+}
+
+#page > * {
+    width: 50%;
+}
+
+#page > div {
+    padding: 4rem 11.2rem;
+}
+
+header img {
+    width: 16rem;
+    height: 5.4rem;
+}
+
+main {
+    margin-top: 11.4rem;
+}
+
+.headline {
+    max-width: 35rem;
+}
+
+form {
+    margin-top: 4rem;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1.6rem 2.4rem;
+
+    background-color: #7c3aed;
+    color: #ffffff;
+
+    border-radius: 4px;
+    
+    width: 100%;
+
+    font-weight: 700;
+    line-height: 2.4rem;
+
+    transition: background 300ms;
+
+    margin-block: 3.2rem;
+}
+
+form button:hover {
+    background-color: #9F67FF;
+}
+
+form button:active, form button:focus {
+    outline: 2px solid #7c3aed;
+    border-radius: 2px;
+}
+
+form input {
+    width: 100%;
+
+    background-color: #ffffff;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+
+    padding: 1.6rem 1.2rem;
+    margin-top: 0.8rem;
+}
+
+form input:disabled {
+    color: #E2E8F0;
+}
+
+form input[type="password"] {
+    appearance: none;
+}
+
+form input::placeholder {
+    color: #94A3B8;
+
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+
+form .input-wrapper:focus-within input {
+    border: 1px solid #7c3aed;
+}
+
+form .input-wrapper + .input-wrapper {
+    margin-top: 1.6rem;
+}
+
+.label-wrapper {
+    justify-content: space-between;
+}
+
+.label-wrapper a {
+    font-weight: 600;
+    font-size: 1.4rem;
+
+    color: #7c3aed;
+}
+
+.eye {
+    width: 2rem;
+    height: 2rem;
+
+    position: absolute;
+    top: 56%;
+    right: 3%;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    #page > * {
+        width: 100%;
+    }
+
+    #page > img {
+        display: none;
+    }
+
+    #page > div {
+        padding: 11rem;
+    }
+
+    main {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    #page > div {
+        padding: 4rem;
+    }
+}

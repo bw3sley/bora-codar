@@ -2,11 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./global.css">
+
     <title>Document</title>
 </head>
 <body>
+    <div id="page" class="flex">
+        <div>
+            <header>
+                <img src="./assets/logo.svg" alt="">
+            </header>
     
+            <main>
+                <div class="headline">
+                    <h1>Acesse a plataforma</h1>
+                    <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+                </div>
+    
+                <form action="">
+                    <div class="input-wrapper">
+                        <label for="email">E-mail</label>
+                        
+                        <input 
+                            type="email" 
+                            id="email"
+                            placeholder="Digite seu e-mail"
+                            required
+                        >
+                    </div>
+    
+                    <div class="input-wrapper">
+                        <div class="label-wrapper flex">
+                            <label for="password">Senha</label>
+    
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
+                        
+                        <input 
+                            type="password" 
+                            id="password"
+                            placeholder="Digite sua senha"
+                            required
+                        >
+    
+                        <img src="./assets/eye.svg" class="show-password eye" onclick="togglePassword()" alt="">
+                        <img src="./assets/eye-off.svg" class="hide-password eye hide" onclick="togglePassword()" alt="">
+                    </div>
+    
+                    <button type="submit">Entrar</button>
+    
+                    <div class="help">
+                        Ainda não tem uma conta? <a href="#">Inscreva-se</a>
+                    </div>
+                </form>
+            </main>
+        </div>
+
+        <img src="./assets/bg.jpg" alt="">
+    </div>
+
+    <script>
+        function togglePassword() {
+            document.querySelectorAll(".eye").forEach(eye => eye.classList.toggle("hide"));
+        
+            if(password.getAttribute("type") === "password") {
+                password.setAttribute("type", "text");
+            }
+
+            else {
+                password.setAttribute("type", "password");
+            }
+        }
+    </script>
 </body>
 </html>
