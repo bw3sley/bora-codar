@@ -14,6 +14,8 @@
 | 07 | [Carnaval landing page](https://github.com/bw3sley/bora-codar/tree/main/carnaval-landing-page) | February 22, 2023 |
 | 08 | [Dashboard](https://github.com/bw3sley/bora-codar/tree/main/dashboard) | March 01, 2023 |
 | 09 | [Currency converter](https://github.com/bw3sley/bora-codar/tree/main/currency-converter) | March 08, 2023 |
+| 10 | [Weather Forecast](https://github.com/bw3sley/bora-codar/tree/main/weather-forecast) | March 15, 2023 |
+| 11 | [Login page](https://github.com/bw3sley/bora-codar/tree/main/login-page) | March 22, 2023 |
 
 ## 📝 License
 
