@@ -16,6 +16,7 @@
 | 09 | [Currency converter](https://github.com/bw3sley/bora-codar/tree/main/currency-converter) | March 08, 2023 |
 | 10 | [Weather Forecast](https://github.com/bw3sley/bora-codar/tree/main/weather-forecast) | March 15, 2023 |
 | 11 | [Login page](https://github.com/bw3sley/bora-codar/tree/main/login-page) | March 22, 2023 |
+| 11 | [Kanban page](https://github.com/bw3sley/bora-codar/tree/main/kanban-page) | March 29, 2023 |
 
 ## 📝 License
 
