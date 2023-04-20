@@ -6,7 +6,7 @@
 | # | Project Name | Release Date |
 | - | ------------ | ------------ |
 | 01 | [Music player](https://github.com/bw3sley/bora-codar/tree/main/music-player) | January 11, 2023 |
-| 02 | [Product card]() | January 18, 2023 |
+| 02 | [Product card](https://github.com/bw3sley/bora-codar/tree/main/product-card) | January 18, 2023 |
 | 03 | [Button types](https://github.com/bw3sley/bora-codar/tree/main/button-types) | January 25, 2023 |
 | 04 | [Chat app](https://github.com/bw3sley/bora-codar/tree/main/chat-app) | February 01, 2023 |
 | 05 | [Calculator](https://github.com/bw3sley/bora-codar/tree/main/calculator) | Calculator 08, 2023 |
