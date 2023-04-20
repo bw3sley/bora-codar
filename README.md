@@ -17,8 +17,9 @@
 | 10 | [Weather Forecast](https://github.com/bw3sley/bora-codar/tree/main/weather-forecast) | March 15, 2023 |
 | 11 | [Login page](https://github.com/bw3sley/bora-codar/tree/main/login-page) | March 22, 2023 |
 | 11 | [Kanban page](https://github.com/bw3sley/bora-codar/tree/main/kanban-page) | March 29, 2023 |
-| 12 | [Credit form](https://github.com/bw3sley/bora-codar/tree/main/credit-form) | March 05, 2023 |
-| 13 | [File input](https://github.com/bw3sley/bora-codar/tree/main/file-input) | March 14, 2023 |
+| 12 | [Credit form](https://github.com/bw3sley/bora-codar/tree/main/credit-form) | April 05, 2023 |
+| 13 | [File input](https://github.com/bw3sley/bora-codar/tree/main/file-input) | April 12, 2023 |
+| 14 | [Price table](https://github.com/bw3sley/bora-codar/tree/main/price-table) | April 19, 2023 |
 
 ## 📝 License
 
