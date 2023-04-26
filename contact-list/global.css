@@ -15,8 +15,205 @@
 body, html {
     width: 100%;
     height: 100%;
+
+    overflow: hidden;
 }
 
 body {
     font-size: 1.6rem;
+
+    background-color: #1a1924;
+    color: #e1e1e6;
+}
+
+body * {
+    font-family: "Roboto", sans-serif;
+}
+
+.flex {
+    display: flex;   
+}
+
+.container {
+    padding: 4rem;
+}
+
+.items-center {
+    align-items: center
+}
+
+header {
+    background-color: #16151e;
+}
+
+header h2 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+nav ul {
+    gap: 1.6rem;
+}
+
+nav ul li {
+    font-size: 2.4rem;
+}
+
+ul {
+    list-style: none;
+}
+
+form {
+    margin-top: 2.4rem;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.input-wrapper {
+    gap: 1rem;
+
+    background-color: #24243d;
+
+    border-radius: 5px;
+
+    padding: 1.6rem 2.4rem;
+}
+
+.input-wrapper input {
+    background-color: transparent;
+
+    border: 0;
+    outline: 0;
+
+    width: 100%;
+
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+
+    color: #e1e1e6;
+}
+
+.input-wrapper ion-icon {
+    font-size: 1.6rem;
+}
+
+.input-wrapper input::placeholder {
+    color: #e1e1e6;
+}
+
+.input-wrapper:focus-within {
+    outline: 2px #ffffff solid;
+}
+
+.letter {
+    width: 4rem;
+    height: 4rem;
+    
+    justify-content: center;
+
+    border-radius: 8px;
+
+    margin-right: 5.2rem;
+
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+
+    background-color: var(--color);
+}
+
+.purple {
+    --color: #633bbc;
+}
+
+.green {
+    --color: #07847e;
+}
+
+.pink {
+    --color: #9a00b3;
+}
+
+.blue {
+    --color: #0088b3;
+}
+
+.yellow {
+    --color: #b38c00;
+}
+
+.person {
+    gap: 1.6rem;
+}
+
+.person img {
+    width: 4.8rem;
+    height: 4.8rem;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.person strong, .person span {
+    display: block;
+}
+
+.person strong {
+    font-size: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+
+.person span {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+
+    color: #8c8cba;
+
+    margin-top: 0.4rem;
+}
+
+.contacts {
+    flex-direction: column;
+    gap: 5.2rem;
+
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+.contacts::-webkit-scrollbar {
+    width: .8rem;
+}
+
+.contacts::-webkit-scrollbar-thumb {
+    background-color: #282843;
+
+    border-radius: 999px;
+}
+
+.list-wrapper ul {
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+header nav, header form, .list-wrapper {
+    max-width: 35rem;
+    width: 100%;
+
+    margin-inline: auto;
 }
