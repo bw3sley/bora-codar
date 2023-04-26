@@ -6,7 +6,7 @@
 | # | Project Name | Release Date |
 | - | ------------ | ------------ |
 | 01 | [Music player](https://github.com/bw3sley/bora-codar/tree/main/music-player) | January 11, 2023 |
-| 02 | [Product card]() | January 18, 2023 |
+| 02 | [Product card](https://github.com/bw3sley/bora-codar/tree/main/product-card) | January 18, 2023 |
 | 03 | [Button types](https://github.com/bw3sley/bora-codar/tree/main/button-types) | January 25, 2023 |
 | 04 | [Chat app](https://github.com/bw3sley/bora-codar/tree/main/chat-app) | February 01, 2023 |
 | 05 | [Calculator](https://github.com/bw3sley/bora-codar/tree/main/calculator) | Calculator 08, 2023 |
@@ -17,8 +17,9 @@
 | 10 | [Weather Forecast](https://github.com/bw3sley/bora-codar/tree/main/weather-forecast) | March 15, 2023 |
 | 11 | [Login page](https://github.com/bw3sley/bora-codar/tree/main/login-page) | March 22, 2023 |
 | 11 | [Kanban page](https://github.com/bw3sley/bora-codar/tree/main/kanban-page) | March 29, 2023 |
-| 12 | [Credit form](https://github.com/bw3sley/bora-codar/tree/main/credit-form) | March 05, 2023 |
-| 13 | [File input](https://github.com/bw3sley/bora-codar/tree/main/file-input) | March 14, 2023 |
+| 12 | [Credit form](https://github.com/bw3sley/bora-codar/tree/main/credit-form) | April 05, 2023 |
+| 13 | [File input](https://github.com/bw3sley/bora-codar/tree/main/file-input) | April 12, 2023 |
+| 14 | [Price table](https://github.com/bw3sley/bora-codar/tree/main/price-table) | April 19, 2023 |
 
 ## 📝 License
 
