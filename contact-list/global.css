@@ -211,6 +211,10 @@ form {
     gap: 3.2rem;
 }
 
+.hidden {
+    display: none;
+}
+
 header nav, header form, .list-wrapper {
     max-width: 35rem;
     width: 100%;
