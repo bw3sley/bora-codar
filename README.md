@@ -20,6 +20,7 @@
 | 12 | [Credit form](https://github.com/bw3sley/bora-codar/tree/main/credit-form) | April 05, 2023 |
 | 13 | [File input](https://github.com/bw3sley/bora-codar/tree/main/file-input) | April 12, 2023 |
 | 14 | [Price table](https://github.com/bw3sley/bora-codar/tree/main/price-table) | April 19, 2023 |
+| 14 | [Contact list](https://github.com/bw3sley/bora-codar/tree/main/contact-list) | April 26, 2023 |
 
 ## 📝 License
 
