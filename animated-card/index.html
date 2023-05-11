@@ -2,11 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./global.css">
+
+    <link rel="stylesheet" href="./lib/atropos.min.css">
+
     <title>Document</title>
 </head>
 <body>
+    <div class="cards container">
+        <div class="card-back">
+            <h2>FINN</h2>
+        </div>
     
+        <div class="card-front atropos">
+            <div class="atropos-scale">
+                <div class="atropos-rotate">
+                    <div class="atropos-rotate">
+                        <div class="atropos-inner">
+                            <div class="card-info">
+                                <header>
+                                    <h3 data-atropos-offset="5">Rey Skywalker</h3>
+                    
+                                    <span>Era uma catadora de sucata que descobriu ser sensível à Força durante sua busca ao lendário Mestre Jedi Luke Skywalker.</span>
+                                </header>
+                    
+                                <div class="character">
+                                    <img data-atropos-offset="4" src="./assets/character.svg" alt="Rey Skywalker">
+                                </div>
+                    
+                                <main>
+                                    <div class="info">
+                                        <span>Filmes</span>
+                                            
+                                        <strong>The Force Awakens, The Last Jedi, The Rise of Skywalker & Forces of Destiny</strong>
+                                    </div>
+                    
+                                    <div class="info">
+                                        <span>Espécies</span>
+                    
+                                        <strong>Humana</strong>
+                                    </div>
+                    
+                                    <div class="info">
+                                        <span>Altura</span>
+                    
+                                        <strong>1,7m</strong>
+                                    </div>
+                    
+                                    <div class="info">
+                                        <span>Localidade</span>
+                    
+                                        <strong>Jakku</strong>
+                                    </div>
+                    
+                                    <div class="info">
+                                        <span>Armas</span>
+                    
+                                        <strong>Sabre de luz, Blaster, Quarterstaff</strong>
+                                    </div>
+                                </main>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="card-back">
+            <h2>BB-8</h2>
+        </div>
+    </div>
+
+    <script src="./lib/atropos.min.js"></script>
+
+    <script>
+        new Atropos({
+            el: ".atropos"
+        })
+    </script>
+
 </body>
 </html>
