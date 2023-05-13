@@ -22,6 +22,7 @@
 | 14 | [Price table](https://github.com/bw3sley/bora-codar/tree/main/price-table) | April 19, 2023 |
 | 14 | [Contact list](https://github.com/bw3sley/bora-codar/tree/main/contact-list) | April 26, 2023 |
 | 14 | [Calendar](https://github.com/bw3sley/bora-codar/tree/main/calendar) | May 03, 2023 |
+| 14 | [Animated card](https://github.com/bw3sley/bora-codar/tree/main/animated-card) | May 10, 2023 |
 
 ## 📝 License
 
