@@ -19,4 +19,193 @@ body, html {
 
 body {
     font-size: 1.6rem;
+    font-weight: 500;
+
+    background-color: #121214;
+
+    display: grid;
+    place-content: center;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.card {
+    flex-direction: column;
+    gap: 9.6rem;
+
+    padding: 2.4rem 5.6rem;
+
+    border-radius: 40px;
+
+    background-color: #ffffff;
+
+    max-width: 82rem;
+}
+
+.card-drag {
+    width: 16.8rem;
+    height: 1.8rem;
+
+    background-color: #e5d8ea;
+
+    border-radius: 999px;
+
+    margin-inline: auto;
+}
+
+.card-header h1 {
+    font-size: 4rem;
+    line-height: 4.8rem;
+    font-weight: 700;
+    
+    color: #372D3B;
+}
+
+.card-header h1 span {
+    color: #864293;
+}
+
+.card-header p {
+    font-size: 2.5rem;
+    line-height: 3rem;
+
+    color: #372D3B;
+}
+
+.card-body {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body .left {
+    align-items: center;
+}
+
+.car-img {
+    margin-left: -5rem;
+}
+
+.driver {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    z-index: 1;
+}
+
+.driver-avatar img {
+    width: 13.8rem;
+    height: 13.8rem;
+
+    border-radius: 50%;
+}
+
+.driver-stars {
+    color: #fbf8fc;
+    background-color: #372d3b;
+
+    border-radius: 999px;
+
+    margin-top: -3.2rem;
+    padding: 0.8rem 2.2rem;
+
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    width: 10rem;
+    height: 3.2rem;
+
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.driver-name {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+
+    color: #372D3B;
+
+    margin-top: 0.6rem;
+}
+
+.car-plate {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5rem;
+    
+    color: #372D3B;
+}
+
+.car-model {
+    font-size: 2.4rem;
+    line-height: 3rem;
+
+    color: #372D3B;
+}
+
+.card-footer {
+    gap: 3.2rem;
+
+    align-items: center;
+}
+
+.input-wrapper {
+    background-color: #f5edf7;
+
+    border-radius: 2.4rem;
+
+    height: 6.4rem;
+
+    flex: 3;
+    align-items: center;
+
+    padding: 0 3.2rem;
+}
+
+.input-wrapper label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.input-wrapper input {
+    width: 100%;
+
+    border: 0;
+
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.9rem;
+
+    color: #372D3B;
+    background-color: transparent;
+}
+
+.input-wrapper:focus-within {
+    outline: 2.5px solid ;
+}
+
+.input-wrapper input:focus {
+    outline: 0;
+}
+
+.card-footer .ph-fill {
+    font-size: 5.6rem;
+
+    color: #372D3B;
 }
