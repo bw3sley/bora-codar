@@ -9,7 +9,7 @@
 | 02 | [Product card](https://github.com/bw3sley/bora-codar/tree/main/product-card) | January 18, 2023 |
 | 03 | [Button types](https://github.com/bw3sley/bora-codar/tree/main/button-types) | January 25, 2023 |
 | 04 | [Chat app](https://github.com/bw3sley/bora-codar/tree/main/chat-app) | February 01, 2023 |
-| 05 | [Calculator](https://github.com/bw3sley/bora-codar/tree/main/calculator) | Calculator 08, 2023 |
+| 05 | [Calculator](https://github.com/bw3sley/bora-codar/tree/main/calculator) | February 08, 2023 |
 | 06 | [Ticket](https://github.com/bw3sley/bora-codar/tree/main/ticket) | February 15, 2023 |
 | 07 | [Carnaval landing page](https://github.com/bw3sley/bora-codar/tree/main/carnaval-landing-page) | February 22, 2023 |
 | 08 | [Dashboard](https://github.com/bw3sley/bora-codar/tree/main/dashboard) | March 01, 2023 |
@@ -24,6 +24,7 @@
 | 17 | [Calendar](https://github.com/bw3sley/bora-codar/tree/main/calendar) | May 03, 2023 |
 | 18 | [Animated card](https://github.com/bw3sley/bora-codar/tree/main/animated-card) | May 10, 2023 |
 | 19 | [Driver card](https://github.com/bw3sley/bora-codar/tree/main/driver-card) | May 17, 2023 |
+| 20 | [Images gallery](https://github.com/bw3sley/bora-codar/tree/main/images-gallery) | May 24, 2023 |
 
 ## 📝 License
 
