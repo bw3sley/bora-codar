@@ -4,7 +4,7 @@
 ## 🚀 Challenges
 
 | # | Project Name | Release Date |
-| - | ------------ | ------------ |
+| :-: | :------------: | :------------: |
 | 01 | [Music player](https://github.com/bw3sley/bora-codar/tree/main/music-player) | January 11, 2023 |
 | 02 | [Product card](https://github.com/bw3sley/bora-codar/tree/main/product-card) | January 18, 2023 |
 | 03 | [Button types](https://github.com/bw3sley/bora-codar/tree/main/button-types) | January 25, 2023 |
@@ -25,6 +25,7 @@
 | 18 | [Animated card](https://github.com/bw3sley/bora-codar/tree/main/animated-card) | May 10, 2023 |
 | 19 | [Driver card](https://github.com/bw3sley/bora-codar/tree/main/driver-card) | May 17, 2023 |
 | 20 | [Images gallery](https://github.com/bw3sley/bora-codar/tree/main/images-gallery) | May 24, 2023 |
+| 20 | [Shopping cart](https://github.com/bw3sley/bora-codar/tree/main/shopping-cart) | May 31, 2023 |
 
 ## 📝 License
 
