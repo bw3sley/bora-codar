@@ -1,12 +1,239 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./global.css">
+
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="app">
+        <header>
+            <div class="title">
+                Seu carrinho tem <strong id="item-count">5 itens</strong>
+            </div>
+
+            <i class="ph ph-x"></i>
+        </header>
+
+        <main>
+            <div class="item">
+                <img src="./assets/product-image-monitor.jpg" alt="">
+
+                <div class="details">
+                    <div class="title">
+                        <span>Monitor Gamer Curvo 49 DQHD, 240Hz, 1ms, HDMI e...</span>
+                    </div>
+
+                    <div class="price-qty">
+                        <div class="price">
+                            <strong>R$ 8.599,90</strong>
+                        </div>
+                        
+                        <div class="qty">
+                            <button type="button" class="sub" onclick="decrementQuantity(this)">
+                                <i class="ph ph-minus"></i>
+                            </button>
+
+                            <span>1</span>
+
+                            <button type="button" class="add" onclick="incrementQuantity(this)">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./assets/product-image-cadeira.jpg" alt="">
+
+                <div class="details">
+                    <div class="title">
+                        <span>Cadeira Gamer  RGB - Preta com Iluminação (Led)</span>
+                    </div>
+
+                    <div class="price-qty">
+                        <div class="price">
+                            <strong>R$ 959,90</strong>
+                        </div>
+                        
+                        <div class="qty">
+                            <button type="button" class="sub" onclick="decrementQuantity(this)">
+                                <i class="ph ph-minus"></i>
+                            </button>
+
+                            <span>1</span>
+
+                            <button type="button" class="add" onclick="incrementQuantity(this)">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./assets/product-image-teclado.jpg" alt="">
+
+                <div class="details">
+                    <div class="title">
+                        <span>Teclado Gamer Mecânico Low Profile RGB AW510K 580</span>
+                    </div>
+
+                    <div class="price-qty">
+                        <div class="price">
+                            <strong>R$ 1.002,00</strong>
+                        </div>
+                        
+                        <div class="qty">
+                            <button type="button" class="sub" onclick="decrementQuantity(this)">
+                                <i class="ph ph-minus"></i>
+                            </button>
+
+                            <span>1</span>
+
+                            <button type="button" class="add" onclick="incrementQuantity(this)">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./assets/product-image-headset.jpg" alt="">
+
+                <div class="details">
+                    <div class="title">
+                        <span>Headset Gamer RGB Preto</span>
+                    </div>
+
+                    <div class="price-qty">
+                        <div class="price">
+                            <strong>R$ 99,90</strong>
+                        </div>
+                        
+                        <div class="qty">
+                            <button type="button" class="sub" onclick="decrementQuantity(this)">
+                                <i class="ph ph-minus"></i>
+                            </button>
+
+                            <span>1</span>
+
+                            <button type="button" class="add" onclick="incrementQuantity(this)">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./assets/product-image-patinho.jpg" alt="">
+
+                <div class="details">
+                    <div class="title">
+                        <span>Patinho De Borracha Para Banho</span>
+                    </div>
+
+                    <div class="price-qty">
+                        <div class="price">
+                            <strong>R$ 19,90</strong>
+                        </div>
+                        
+                        <div class="qty">
+                            <button type="button" class="sub" onclick="decrementQuantity(this)">
+                                <i class="ph ph-minus"></i>
+                            </button>
+
+                            <span>1</span>
+
+                            <button type="button" class="add" onclick="incrementQuantity(this)">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="total">
+                <span>Total:</span>
+                <strong id="total-price">R$ 10.681,60</strong>
+            </div>
+
+            <div class="coupon">
+                <i class="ph ph-tag"></i>
+                <span>Adicionar cupom</span>
+            </div>
+
+            <button type="button" >Finalizar compra</button>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <script>
+        function countNumberOfProducts() {
+            const numberOfProducts = document.querySelector("main").children.length;
+            document.querySelector("#item-count").textContent = `${numberOfProducts} itens`;
+        }
+
+        function sumProductsPrice() {
+            const items = document.querySelectorAll(".item");
+
+            let total = 0;
+
+            items.forEach(item => {
+                const quantity = Number(item.querySelector(".qty span").textContent);
+                const price = Number(item.querySelector(".price strong").textContent.replace("R$", "").replace(".", "").replace(",", "."));
+                
+                total += quantity * price;
+            });
+
+            const formattedPrice = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(total);
+            document.querySelector("#total-price").textContent = formattedPrice;
+        }
+
+        function incrementQuantity(button) {
+            const quantityElement = button.parentNode.querySelector("span");
+            
+            let quantity = parseInt(quantityElement.textContent);
+            
+            quantity++;
+            
+            quantityElement.textContent = quantity;
+
+            sumProductsPrice();
+        }
+
+        function decrementQuantity(button) {
+            const quantityElement = button.parentNode.querySelector("span");
+
+            let quantity = parseInt(quantityElement.textContent);
+            
+            if (quantity > 1) {
+                quantity--;
+                quantityElement.textContent = quantity;
+
+                sumProductsPrice();
+            }
+        }
+
+        countNumberOfProducts();
+        sumProductsPrice();
+    </script>
+
 </body>
 </html>
