@@ -26,6 +26,7 @@
 | 19 | [Driver card](https://github.com/bw3sley/bora-codar/tree/main/driver-card) | May 17, 2023 |
 | 20 | [Images gallery](https://github.com/bw3sley/bora-codar/tree/main/images-gallery) | May 24, 2023 |
 | 20 | [Shopping cart](https://github.com/bw3sley/bora-codar/tree/main/shopping-cart) | May 31, 2023 |
+| 20 | [Profile settings](https://github.com/bw3sley/bora-codar/tree/main/profile-settings) | Jun 7, 2023 |
 
 ## 📝 License
 
