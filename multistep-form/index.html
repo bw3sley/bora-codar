@@ -1,11 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./global.css">
+
     <title>Document</title>
 </head>
 <body>
-    
+    <main id="app">
+        <form action="">
+            <div class="step-progress">
+                <strong class="active" data-step="">Contato</strong>
+                
+                <img src="./assets/arrow-right.svg" alt="">
+                
+                <strong class="" data-step="">Empresa</strong>
+                
+                <img src="./assets/arrow-right.svg" alt="">
+                
+                <strong class="" data-step="">Projeto</strong>
+            </div>
+
+            <div class="form-step active">
+                <div class="content">
+                    <div class="input-wrapper">
+                        <label for="name">Nome</label>
+
+                        <input 
+                            type="text" 
+                            name="name" 
+                            id="name" 
+                            placeholder="Como prefere ser chamado" 
+                            required
+                        >
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="phone">Telefone</label>
+
+                        <input 
+                            type="tel" 
+                            name="phone" 
+                            id="phone" 
+                            placeholder="Digite seu número de WhatsApp" 
+                            onkeypress="return /\d/.test(event.key)"
+                        >
+                    </div>
+                   
+                    <div class="input-wrapper">
+                        <label for="email">Email</label>
+
+                        <input 
+                            type="text" 
+                            name="email" 
+                            id="email" 
+                            placeholder="Digite seu e-mail" 
+                            required
+                        >
+                    </div>
+                </div>
+
+                <div class="button-wrapper justify-end">
+                    <button type="button" data-action="next" class="btn primary">CONTINUAR</button>
+                </div>
+            </div>
+
+            <div class="form-step hidden">
+                <div class="content">
+                    <div class="input-wrapper">
+                        <label for="business-name">Nome da empresa</label>
+
+                        <input 
+                            type="text" 
+                            name="business-name" 
+                            id="business-name" 
+                            placeholder="Qual é o nome da empresa" 
+                            required
+                        >
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="business-colab-number">Número de funcionários</label>
+
+                        <input 
+                            type="number" 
+                            name="business-colab-number" 
+                            id="business-colab-number" 
+                            placeholder="Digite o número de colaboradores" 
+                            onkeypress="return /\d/.test(event.key)"
+                            required
+                        >
+                    </div>
+                   
+                    <div class="input-wrapper">
+                        <label for="business-about">Sobre seu negócio</label>
+
+                        <textarea name="business-about" id="business-about" placeholder="Fale um pouco sobre seus produtos e serviços"></textarea>
+                    </div>
+                </div>
+
+                <div class="button-wrapper">
+                    <button type="button" data-action="prev" class="btn secondary">VOLTAR</button>
+                    <button type="button" data-action="next" class="btn primary">CONTINUAR</button>
+                </div>
+            </div>
+
+            <div class="form-step hidden">
+                <div class="content">
+                    <div class="input-wrapper">
+                        <label for="project">Objetivos do projeto</label>
+
+                        <textarea name="project" id="project" placeholder="Descreva quais objetivos do projeto" required></textarea>
+                    </div>
+                </div>
+
+                <div class="button-wrapper">
+                    <button type="button" data-action="prev" class="btn secondary">VOLTAR</button>
+                    <button type="submit" class="btn primary">ENVIAR RESPOSTA</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <script src="./main.js"></script>
+
 </body>
 </html>
