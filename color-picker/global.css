@@ -15,8 +15,129 @@
 body, html {
     width: 100%;
     height: 100%;
+
+    background-color: #242424;
+    color: #ffffff;
+
+    display: grid;
+    place-content: center;
 }
 
 body {
     font-size: 1.6rem;
+
+    font-family: "Raleway", sans-serif;
+}
+
+main {
+    width: 43rem;
+    height: 93.2rem;
+    
+    background-color: #151515;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 5.2rem;
+    
+    position: relative;
+    
+    overflow: hidden;
+}
+
+span {
+    font-size: 3rem;
+    line-height: 3.8rem;
+
+    text-align: center;
+    
+    margin: 35rem 0 10rem;
+}
+
+i {
+    font-size: 2.4rem;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 32.1rem;
+    gap: 8.2rem;
+}
+
+.hue, .brightness, .contrast {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.hue > div, .brightness > div, .contrast > div {
+    display: flex;
+    align-items: center;
+    
+    border-radius: 12px;
+    
+    background-color: #fff;
+}
+
+.hue > div {
+    background: linear-gradient(to right,
+        red,
+        yellow,
+        lime,
+        aqua,
+        blue,
+        magenta,
+        red
+    );
+}
+
+input[type="range"] {
+    width: 28.1rem;
+    height: .5rem;
+
+    appearance: none;
+    
+    background-color: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    width: 1.8rem;
+    height: 1.8rem;
+
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    
+    background-color: #ffffff;
+    
+    appearance: none;
+    
+    display: flex;
+    align-items: center;
+    
+    cursor: pointer;
+}
+
+.brightness input[type="range"]::-webkit-slider-thumb, .contrast input[type="range"]::-webkit-slider-thumb {
+    background-color: #151515;
+    border: 3px solid #fff;
+}
+
+.preview {
+    display: flex;
+    
+    width: 84.6rem;
+    height: 84.6rem;
+    
+    background-color: purple;
+    border-radius: 50%;
+    
+    box-shadow: 0px 0px 5.3rem 1.3rem purple;
+    
+    position: absolute;
+    top: -50rem;
 }
