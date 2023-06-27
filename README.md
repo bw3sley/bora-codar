@@ -27,6 +27,8 @@
 | 20 | [Images gallery](https://github.com/bw3sley/bora-codar/tree/main/images-gallery) | May 24, 2023 |
 | 20 | [Shopping cart](https://github.com/bw3sley/bora-codar/tree/main/shopping-cart) | May 31, 2023 |
 | 20 | [Profile settings](https://github.com/bw3sley/bora-codar/tree/main/profile-settings) | Jun 7, 2023 |
+| 20 | [Multistep form](https://github.com/bw3sley/bora-codar/tree/main/multistep-form) | Jun 14, 2023 |
+| 20 | [Color picker](https://github.com/bw3sley/bora-codar/tree/main/color-picker) | Jun 21, 2023 |
 
 ## 📝 License
 
