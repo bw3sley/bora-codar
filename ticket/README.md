@@ -9,7 +9,7 @@
 
 ![Preview Screen](./assets/cover.png)
 
-You can preview the project layout [clicking here](https://www.figma.com/community/file/1205146101173113980/Cart%C3%A3o-de-Embarque-%E2%80%A2-Desafio-06). Please note that a [Figma](https://figma.com) account is required to access it.
+You can preview the project layout [clicking here](https://www.figma.com/community/file/1253345035290143826/Player-de-VR-%E2%80%A2-Desafio-25). Please note that a [Figma](https://figma.com) account is required to access it.
 
 ## 💻 About this project
 
