@@ -9,7 +9,7 @@
 
 ![Preview Screen](./assets/cover.png)
 
-You can preview the project layout [clicking here](https://www.figma.com/community/file/1255887923488942888/Receita-Junina-%E2%80%A2-Desafio-26). Please note that a [Figma](https://figma.com) account is required to access it.
+You can preview the project layout [clicking here](https://www.figma.com/community/file/1225440656930547927/Componente-de-Upload-%E2%80%A2-Desafio-14). Please note that a [Figma](https://figma.com) account is required to access it.
 
 ## 💻 About this project
 
