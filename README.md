@@ -25,13 +25,14 @@
 | 18 | [Animated card](https://github.com/bw3sley/bora-codar/tree/main/animated-card) | May 10, 2023 |
 | 19 | [Driver card](https://github.com/bw3sley/bora-codar/tree/main/driver-card) | May 17, 2023 |
 | 20 | [Images gallery](https://github.com/bw3sley/bora-codar/tree/main/images-gallery) | May 24, 2023 |
-| 20 | [Shopping cart](https://github.com/bw3sley/bora-codar/tree/main/shopping-cart) | May 31, 2023 |
-| 20 | [Profile settings](https://github.com/bw3sley/bora-codar/tree/main/profile-settings) | Jun 7, 2023 |
-| 20 | [Multistep form](https://github.com/bw3sley/bora-codar/tree/main/multistep-form) | Jun 14, 2023 |
-| 20 | [Color picker](https://github.com/bw3sley/bora-codar/tree/main/color-picker) | Jun 21, 2023 |
-| 20 | [Player VR](https://github.com/bw3sley/bora-codar/tree/main/player-vr) | Jun 28, 2023 |
-| 20 | [July Recipes](https://github.com/bw3sley/bora-codar/tree/main/july-recipes) | Jul 05, 2023 |
-| 20 | [404 - Not found](https://github.com/bw3sley/bora-codar/tree/main/not-found) | Jul 12, 2023 |
+| 21 | [Shopping cart](https://github.com/bw3sley/bora-codar/tree/main/shopping-cart) | May 31, 2023 |
+| 22 | [Profile settings](https://github.com/bw3sley/bora-codar/tree/main/profile-settings) | Jun 7, 2023 |
+| 23 | [Multistep form](https://github.com/bw3sley/bora-codar/tree/main/multistep-form) | Jun 14, 2023 |
+| 24 | [Color picker](https://github.com/bw3sley/bora-codar/tree/main/color-picker) | Jun 21, 2023 |
+| 25 | [Player VR](https://github.com/bw3sley/bora-codar/tree/main/player-vr) | Jun 28, 2023 |
+| 26 | [July Recipes](https://github.com/bw3sley/bora-codar/tree/main/july-recipes) | Jul 05, 2023 |
+| 27 | [404 - Not found](https://github.com/bw3sley/bora-codar/tree/main/not-found) | Jul 12, 2023 |
+| 28 | [IA plataform](https://github.com/bw3sley/bora-codar/tree/main/ia-plataform) | Jul 19, 2023 |
 
 ## 📝 License
 
