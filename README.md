@@ -30,8 +30,8 @@
 | 20 | [Multistep form](https://github.com/bw3sley/bora-codar/tree/main/multistep-form) | Jun 14, 2023 |
 | 20 | [Color picker](https://github.com/bw3sley/bora-codar/tree/main/color-picker) | Jun 21, 2023 |
 | 20 | [Player VR](https://github.com/bw3sley/bora-codar/tree/main/player-vr) | Jun 28, 2023 |
-| 20 | [Player VR](https://github.com/bw3sley/bora-codar/tree/main/july-recipes) | Jul 05, 2023 |
-| 20 | [Player VR](https://github.com/bw3sley/bora-codar/tree/main/not-found) | Jul 12, 2023 |
+| 20 | [July Recipes](https://github.com/bw3sley/bora-codar/tree/main/july-recipes) | Jul 05, 2023 |
+| 20 | [404 - Not found](https://github.com/bw3sley/bora-codar/tree/main/not-found) | Jul 12, 2023 |
 
 ## 📝 License
 
