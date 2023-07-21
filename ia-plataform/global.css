@@ -9,14 +9,207 @@
 }
 
 :root {
+    --color-gray-01: #f8fafc;
+    --color-gray-02: #e2e8f0;
+    --color-gray-03: #94a3b8;
+    --color-gray-04: #334155;
+    --color-gray-05: #1e293b;
+    --color-gray-06: #0f172a;
+    --color-gray-07: #020617;
+    
     font-size: 62.5%;
 }
 
 body, html {
     width: 100%;
     height: 100%;
+
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    color: var(--color-gray-02);
+
+    object-fit: cover;
 }
 
 body {
     font-size: 1.6rem;
+}
+
+body * {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+    border-radius: 32px;
+    border: 1px solid var(--gray-04, #334155);
+
+    background: rgba(2, 6, 23, 0.80);
+
+    width: 121.6rem;
+
+    padding: 6rem;
+}
+
+header {
+    margin-bottom: -1.6rem;
+}
+
+header div img {
+    display: flex;
+    align-items: center;
+
+    border-radius: 16px;
+    border: 1px solid var(--gray-05, #1E293B);
+
+    background: var(--gray-06, #0F172A);
+
+    padding: 1.2rem;
+}
+
+h1 {
+    color: var(--gray-01, #F8FAFC);
+    
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.ia-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.6rem;
+
+    padding: 1.6rem;
+
+    width: 60.8rem;
+    height: 9.6rem;
+
+    border-radius: 16px;
+    border: 1px solid var(--gray-04, #334155);
+
+    background: var(--gray-06, #0F172A);
+
+    transition: background 200ms;
+}
+
+.tools:hover {
+    background-color: var(--color-gray-07);
+}
+
+.tools div {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.icons {
+    padding: 1.6rem;
+
+    border-radius: 16px;
+    border: 1px solid var(--gray-05, #1E293B);
+
+    background: var(--gray-06, #0F172A);
+}
+
+i {
+    color: var(--color-gray-03);
+
+    font-size: 3.2rem;
+}
+
+.tools div p {
+    font-size: 1.8rem;
+    font-weight: 600;
+
+    color: var(--color-gray-02);
+}
+
+.arrow {
+    padding: 1.6rem;
+}
+
+span {
+    width: 109.6rem;
+    height: .1rem;
+
+    background: #334155;
+}
+
+.prompt:focus-within .input {
+    border: 1px solid var(--color-gray-02);
+}
+
+.prompt {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+
+    width: 100%;
+}
+
+.prompt > div {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+
+    padding: 1.6rem;
+
+    cursor: pointer;
+    
+    border-radius: 16px;
+    border: 1px solid var(--gray-04, #334155);
+    
+    background: var(--gray-06, #0F172A);
+}
+
+.prompt div:first-child {
+    width: 100%;
+}
+
+button, input {
+    background-color: transparent;
+
+    border: 0;
+}
+
+input, input::placeholder {
+    width: 100%;
+    
+    color: var(--gray-02, #E2E8F0);
+    
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    outline: none;
+}
+
+.ph.ph-paper-plane-right:before {
+    color: var(--color-gray-01);
+}
+
+.tools, .prompt button, .ph-plus-circle {
+    cursor: pointer;
 }
