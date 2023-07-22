@@ -9,7 +9,7 @@
 
 ![Preview Screen](./assets/cover.png)
 
-You can preview the project layout [clicking here](https://www.figma.com/community/file/1215291914714743267/P%C3%A1gina-de-Clima-%E2%80%A2-Desafio-10). Please note that a [Figma](https://figma.com) account is required to access it.
+You can preview the project layout [clicking here](https://www.figma.com/community/file/1260950780300628490/Plataforma-de-IA---Desafio-28). Please note that a [Figma](https://figma.com) account is required to access it.
 
 ## 💻 About this project
 
