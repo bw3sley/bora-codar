@@ -8,15 +8,82 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-:root {
-    font-size: 62.5%;
-}
-
 body, html {
     width: 100%;
     height: 100%;
 }
 
 body {
-    font-size: 1.6rem;
+    display: grid;
+    place-content: center;
+
+    background-color: #121214;
+}
+
+.image-container {
+    width: 80vw;
+    aspect-ratio: 16/9;
+
+    position: relative;
+
+    border: 8px solid #ffffff;
+    border-radius: 5px;
+
+    overflow: hidden;
+}
+
+picture {
+    position: absolute;
+}
+
+img {
+    width: 80vw;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.before-image {
+    width: 50%;
+
+    overflow: hidden;
+}
+
+#slider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: 100%;
+
+    appearance: none;
+
+    background-color: transparent;
+
+    z-index: 10;
+}
+
+#slider::-webkit-slider-thumb {
+    appearance: none;
+
+    width: .5rem;
+    height: 100vh;
+
+    background-color: #ffffff;
+
+    cursor: pointer;
+}
+
+#dragger {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+
+    width: 3rem;
+    height: 3rem;
 }
