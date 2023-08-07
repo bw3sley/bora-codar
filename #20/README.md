@@ -1,4 +1,4 @@
-# Weather forecast
+# 20
 
 <a href="../LICENSE.md">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"/>
@@ -9,7 +9,7 @@
 
 ![Preview Screen](./assets/cover.png)
 
-You can preview the project layout [clicking here](https://www.figma.com/community/file/1225440656930547927/Componente-de-Upload-%E2%80%A2-Desafio-14). Please note that a [Figma](https://figma.com) account is required to access it.
+You can preview the project layout [clicking here](https://www.figma.com/community/file/1240650697984569274/Galeria-com-Hover-%E2%80%A2-Desafio-20). Please note that a [Figma](https://figma.com) account is required to access it.
 
 ## 💻 About this project
 
