@@ -1,4 +1,4 @@
-*, *::before, *::after {
+* {
     margin: 0;
     padding: 0;
 
@@ -38,7 +38,7 @@ body * {
     border-radius: 16px;
     box-shadow: 0px -3px 22px 0px rgba(0, 0, 0, 0.35);
     
-    background:  #1E1F28;
+    background: #1E1F28;
     
     padding: 4rem 6rem;
     
@@ -93,7 +93,6 @@ header button {
 }
   
 header button p {
-    font-size: 1rem;
     line-height: 125%;
 }
   
@@ -124,7 +123,6 @@ header button p {
 .title > div {
     color: #FEEA35;
 
-    font-size: 1rem;
     font-weight: 600;
     line-height: 90%;
 }
