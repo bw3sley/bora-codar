@@ -9,31 +9,31 @@
 
 ![Preview Screen](./assets/cover.png)
 
-You can preview the project layout [clicking here](https://www.figma.com/community/file/1268564660141195165/Transcri%C3%A7%C3%A3o-de-v%C3%ADdeo-com-IA-%E2%80%A2-Desafio-31). Please note that a [Figma](https://figma.com) account is required to access it.
+Você pode visualizar o layout do projeto [clicando aqui](https://www.figma.com/community/file/1268564660141195165/transcricao-de-video-com-ia-desafio-31?q_id=db3b094c-f6de-451b-9b10-67c63dcdb15b). Note que uma conta no [Figma](https://figma.com) é necessária para acessá-lo.
 
-## 💻 About this project
+## 💻 Sobre o projeto
 
-Welcome to one of many #boraCodar challenges! 
+Bem-vindo a um dos muitos desafios #boraCodar!
 
-I'll be happy if you could send me any feedback about the project, code, structure or anything that you can report that could make me better as a developer!
+Fico feliz se você puder me enviar algum feedback sobre o projeto, código, estrutura ou qualquer ponto que possa me ajudar a evoluir como desenvolvedor!
 
-And you can use this project as you wish!
+E você pode usar este projeto como quiser!
 
-## 🚀 Built with
+## 🚀 Feito com
 
-This project was built with:
+Este projeto foi feito com:
 
 - HTML
 - CSS
 
-## 📩 Reach me out
+## 📩 Contato
 
-You can reach me at:
+Você pode falar comigo em:
 
-Reach me at: bw3sley@gmail.com
+Email: bw3sley@gmail.com
 
-Connect with me at [LinkedIn](https://www.linkedin.com/in/bw3sley)
+Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/bw3sley)
 
-## 📝 License
+## 📝 Licença
 
-This project is licensed under the MIT License - see the [LICENSE.md](../LICENSE.md) file for details.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE.md](../LICENSE.md) para mais detalhes.
