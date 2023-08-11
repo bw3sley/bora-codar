@@ -33,6 +33,9 @@
 | 26 | [July Recipes](https://github.com/bw3sley/bora-codar/tree/main/july-recipes) | Jul 05, 2023 |
 | 27 | [404 - Not found](https://github.com/bw3sley/bora-codar/tree/main/not-found) | Jul 12, 2023 |
 | 28 | [IA plataform](https://github.com/bw3sley/bora-codar/tree/main/ia-plataform) | Jul 19, 2023 |
+| 29 | [Image improvement](https://github.com/bw3sley/bora-codar/tree/main/#29) | Jul 19, 2023 |
+| 30 | [Movie platform](https://github.com/bw3sley/bora-codar/tree/main/#30) | Jul 19, 2023 |
+| 31 | [Video transcription](https://github.com/bw3sley/bora-codar/tree/main/#31) | Jul 19, 2023 |
 
 ## 📝 License
 
