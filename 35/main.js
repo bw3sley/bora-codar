@@ -1,4 +1,3 @@
-// DOM elements
 const dailyGoalInput = document.getElementById("dailyGoal");
 const dailyGoalOutput = document.getElementById("dailyGoalValue");
 const quantityInput = document.getElementById("dailyQuantity");
@@ -12,26 +11,22 @@ const percentageDisplay = document.getElementById('percentage');
 const goal = document.getElementById('goal');
 
 
-// Initializations
 let totalGlassesTaken = -1;
 let isCounting = false;
 let timer;
 
-// Constants
-const TIME_AWAKE_IN_MINUTES = 960; // Equivalent to 16 hours awake
+const TIME_AWAKE_IN_MINUTES = 960;
 
-// Event listeners
 dailyGoalInput.addEventListener("input", handledailyGoalInput);
 quantityInput.addEventListener("input", handlequantityInput);
 startButton.addEventListener('click', handleStartButtonClick);
 closeButton.addEventListener('click', closeModal);
 
-// Event handlers
 function handledailyGoalInput() {
   const goalInMilliliters = Number(dailyGoalInput.value);
   dailyGoalOutput.textContent = `${goalInMilliliters}ml`;
   const goalInLiters = (goalInMilliliters / 1000).toFixed(1);
-  goal.textContent = `Meta: ${goalInLiters} L`; // Set the goal in liters
+  goal.textContent = `Meta: ${goalInLiters} L`;
   updateHourAndMinutesDisplay();
 }
 
@@ -44,22 +39,18 @@ function handlequantityInput() {
 function handleStartButtonClick() {
   if (isCounting) return;
 
-  // Disable input type range elements
   dailyGoalInput.disabled = true;
   quantityInput.disabled = true;
 
-  // Add the 'disabled-input' class to change cursor style
   dailyGoalInput.classList.add('disabled-input');
   quantityInput.classList.add('disabled-input');
 
-  // Change the button text to "Timer Iniciado"
   startButton.textContent = "Timer Iniciado";
 
   isCounting = true;
   countdown();
 }
 
-// Functions
 function calculate() {
   const totalGlassesOfWater = Number(dailyGoalInput.value / quantityInput.value);
   const totalTimerInMinutes = TIME_AWAKE_IN_MINUTES / totalGlassesOfWater;
@@ -106,7 +97,6 @@ function countdown() {
   minutesElement.textContent = newMinutes;
 
   timer = setInterval(countdown, 10);
-  // timer = setInterval(countdown, 60000); // Default is 1 minute
 }
 
 function openModal() {
@@ -128,6 +118,5 @@ function updatePercentageDisplay() {
   percentageDisplay.textContent = percentageOfTotalGlassesTaken;
 }
 
-// Initial updates
 updateHourAndMinutesDisplay();
 updatePercentageDisplay();

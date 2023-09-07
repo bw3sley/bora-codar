@@ -39,7 +39,6 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
-  /* 12px */
   letter-spacing: 0.36px;
 }
 
@@ -57,25 +56,21 @@ header {
 .welcome span {
   color: #FFF;
 
-  /* Headin 1 */
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
   line-height: 120%;
-  /* 28.8px */
 }
 
 #name {
   color: #FFF;
 
-  /* Heading 2 */
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
-  /* 28.8px */
 }
 
 .welcome span img {
@@ -104,13 +99,11 @@ main h1 {
   color: #1F2128;
   text-align: center;
 
-  /* Card */
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 100%;
-  /* 20px */
 }
 
 output {
@@ -121,7 +114,6 @@ output {
   font-style: normal;
   font-weight: 500;
   line-height: 100%;
-  /* 12px */
   letter-spacing: 0.36px;
 }
 
@@ -135,13 +127,11 @@ main div {
 main div span {
   color: #1F2128;
 
-  /* Title */
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 100%;
-  /* 16px */
   letter-spacing: 0.48px;
 }
 
@@ -150,7 +140,6 @@ main div span {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  /* height: 100%; */
 }
 
 .controls {
@@ -191,13 +180,11 @@ input[type="range"].disabled-input::-webkit-slider-thumb {
 label {
   color: #7FC4ED;
 
-  /* Title */
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 100%;
-  /* 16px */
   letter-spacing: 0.48px;
 }
 
@@ -209,7 +196,6 @@ label {
   font-style: normal;
   font-weight: 500;
   line-height: 100%;
-  /* 12px */
   letter-spacing: 0.36px;
 }
 
@@ -249,13 +235,11 @@ label {
   color: var(--base-gray-100, #FBF9FE);
   text-align: center;
 
-  /* Timer */
   font-family: Poppins;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
-  /* 32px */
   letter-spacing: 0.96px;
 }
 
@@ -272,13 +256,11 @@ button {
   color: var(--base-gray-500, #0F0E13);
   text-align: center;
 
-  /* Title */
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 100%;
-  /* 16px */
   letter-spacing: 0.48px;
 
   cursor: pointer;
@@ -319,13 +301,11 @@ button {
   color: var(--produto-blue, #7FC4ED);
   text-align: center;
 
-  /* Modal */
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
-  /* 28.8px */
   letter-spacing: 0.72px;
 }
 
