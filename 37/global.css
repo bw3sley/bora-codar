@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+img {
+  display: block;
+
+  max-width: 5.5rem;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+body {
+  background-color: #DCCDEA;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+#app {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 36.6rem;
+  height: 47rem;
+
+  color: white;
+
+  background: url("./assets/apple-watc-background.png") center center no-repeat;
+}
+
+.display {
+  position: absolute;
+  left: 7.3rem;
+
+  width: 20.5rem;
+  height: 25rem;
+
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.display .navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.6rem 1.6rem;
+
+  color: var(--opal, #FFF);
+  text-align: right;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.navigation-bar p {
+  color: var(--amethyst, #CDA5F8);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.carousels {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel {
+  transform: scale(.85);
+
+  padding: 0.8rem 1.4rem;
+
+  background: #ffffff1f;
+  border-radius: 20px;
+}
+
+.carousel .header {
+  display: flex;
+  justify-content: space-between;
+
+  height: 4.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.carousel .header button {
+  align-self: start;
+
+  margin-top: 0.4rem;
+  margin-right: 0.3rem;
+}
+
+.carousel p {
+  color: var(--opal, #FFF);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.carousel h3 {
+  color: var(--amethyst, #CDA5F8);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.carousel.active {
+  transform: scale(1);
+}
